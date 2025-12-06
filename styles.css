@@ -1,38 +1,39 @@
 /* Base Reset & Variables */
---color-bg: #ffffff;
---color-text: #333333;
---color-text-light: #666666;
+:root {
+    --color-bg: #ffffff;
+    --color-text: #333333;
+    --color-text-light: #666666;
 
-/* VIVID RAINBOW COLORS */
---color-rainbow-1: #ff5f6d;
-/* Red/Pink */
---color-rainbow-2: #ffc371;
-/* Orange */
---color-rainbow-3: #ffd700;
-/* Yellow */
---color-rainbow-4: #00d2ff;
-/* Blue */
---color-rainbow-5: #928DAB;
-/* Purple */
+    /* VIVID RAINBOW COLORS */
+    --color-rainbow-1: #ff5f6d;
+    /* Red/Pink */
+    --color-rainbow-2: #ffc371;
+    /* Orange */
+    --color-rainbow-3: #ffd700;
+    /* Yellow */
+    --color-rainbow-4: #00d2ff;
+    /* Blue */
+    --color-rainbow-5: #928DAB;
+    /* Purple */
 
---gradient-rainbow: linear-gradient(135deg, var(--color-rainbow-1), var(--color-rainbow-2), var(--color-rainbow-3), var(--color-rainbow-4));
---gradient-btn: linear-gradient(90deg, #ff5f6d, #ffc371, #00d2ff);
+    --gradient-rainbow: linear-gradient(135deg, var(--color-rainbow-1), var(--color-rainbow-2), var(--color-rainbow-3), var(--color-rainbow-4));
+    --gradient-btn: linear-gradient(90deg, #ff5f6d, #ffc371, #00d2ff);
 
---font-heading: 'Noto Sans JP',
-"Helvetica Neue",
-Arial,
-sans-serif;
---font-body: 'Noto Sans JP',
-"Hiragino Kaku Gothic ProN",
-Meiryo,
-sans-serif;
+    --font-heading: 'Noto Sans JP',
+        "Helvetica Neue",
+        Arial,
+        sans-serif;
+    --font-body: 'Noto Sans JP',
+        "Hiragino Kaku Gothic ProN",
+        Meiryo,
+        sans-serif;
 
---container-width: 1100px;
---header-height: 70px;
---spacing-section: 100px;
---spacing-md: 40px;
---spacing-sm: 20px;
---border-radius: 12px;
+    --container-width: 1100px;
+    --header-height: 70px;
+    --spacing-section: 100px;
+    --spacing-md: 40px;
+    --spacing-sm: 20px;
+    --border-radius: 12px;
 }
 
 * {
