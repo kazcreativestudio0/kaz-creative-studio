@@ -157,6 +157,26 @@ h4 {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+.btn-primary:hover {
+    background-size: 200% auto;
+    animation: gradientMove 3s ease infinite;
+    box-shadow: 0 4px 20px rgba(74, 0, 224, 0.4);
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
 .btn-primary {
     background: var(--gradient-btn);
     color: white;
@@ -189,6 +209,8 @@ h4 {
     backdrop-filter: blur(10px);
     z-index: 1000;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05);
+    border-bottom: 2px solid transparent;
+    border-image: var(--gradient-rainbow) 1;
 }
 
 .header-container {
